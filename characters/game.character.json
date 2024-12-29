@@ -1,7 +1,7 @@
 {
     "name": "Dev Jake",
     "plugins": [],
-    "clients": [],
+    "clients": ["twitter"],
     "modelProvider": "openrouter",
     "settings": {
         "model": "deepseek/deepseek-chat",
