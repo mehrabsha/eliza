@@ -43,5 +43,10 @@
     },
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#283020",
+        "titleBar.activeBackground": "#38442D",
+        "titleBar.activeForeground": "#FAFBF8"
     }
 }
