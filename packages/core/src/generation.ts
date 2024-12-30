@@ -908,6 +908,8 @@ export async function generateMessageResponse({
     const max_context_length =
         models[runtime.modelProvider].settings.maxInputTokens;
     context = trimTokens(context, max_context_length, "gpt-4o");
+    elizaLogger.log('context',context)
+
     let retryLength = 1000; // exponential backoff
     while (true) {
         try {
