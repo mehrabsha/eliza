@@ -255,6 +255,8 @@ export class TwitterSearchClient {
                     twitterSearchTemplate,
             });
 
+            elizaLogger.log("aha" +context)
+
             const responseContent = await generateMessageResponse({
                 runtime: this.runtime,
                 context,
